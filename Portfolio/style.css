@@ -1,0 +1,100 @@
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: oldlace;
+    color: saddlebrown;
+    margin: 0;
+    line-height: 1.7;
+}
+header
+{
+    background-color: white;
+    padding: 40px 30px;
+    border-bottom: 3px solid burlywood;
+    text-align: center;
+}
+header h1
+{
+    margin: 0;
+    font-size: 36px;
+    color: sienna;
+}
+header p
+{
+    margin-top: 6px;
+    color: peru;
+    font-size: 16px;
+}
+#image
+{
+    margin-top: 20px;
+}
+#image img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid wheat;
+}
+section
+{
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    border-left: 6px solid burlywood;
+}
+section h2
+{
+    margin-bottom: 14px;
+   color: sienna;
+    font-weight: normal;
+}
+#about p
+{
+    margin-top: 10px;
+}
+#skills ul
+{
+    padding-left: 20px;
+}
+#skills li
+{
+    margin-bottom: 6px;
+}
+#projects h3
+{
+    margin-top: 10px;
+    color: sienna;
+}
+.pj
+{
+    margin-top: 10px;
+    padding-left: 16px;
+    border-left: 3px solid wheat;
+}
+#resume a
+{
+    display: inline-block;
+    margin-top: 10px;
+    color: sienna;
+    text-decoration: underline;
+   
+}
+#resume a:hover{
+    color: peru;
+}
+#contact p
+{
+    margin: 6px 0;
+}
+footer
+{
+    text-align: center;
+    padding: 20px;
+    color: peru;
+    font-size: 14px;
+    background-color: white;
+    border-top: 1px solid burlywood;
+}
